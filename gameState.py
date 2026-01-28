@@ -1,3 +1,7 @@
 class GameState:
     def __init__(self):
-        pass
+        self.data = [
+            [0,0,0],
+            [0,0,0],
+            [0,0,0],
+        ]

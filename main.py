@@ -1,4 +1,6 @@
 from core import Core
 from gameState import GameState
-
-Core(GameState())
+from ui import Ui
+core = Core(GameState())
+ui = Ui
+ui.draw(core.gameState)
