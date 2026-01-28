@@ -1,1 +1,4 @@
-print("hello world")
+from core import Core
+from gameState import GameState
+
+Core(GameState())
